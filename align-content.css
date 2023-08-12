@@ -1,5 +1,4 @@
 .container {
-  height: 130px;
   flex-wrap: wrap;
   display: flex;
   width: 120px;
@@ -8,37 +7,35 @@
   border: 10px solid #0000ff;
 }
 
-.container.flex-start .item,
-.container.flex-end .item,
-.container.center .item,
-.container.strecht .item {
+.item
+ {
   flex: 1;
 }
 
-.container.flex-start {
+.flex-start {
   align-content: flex-start;
 }
 
-.container.flex-end {
+.flex-end {
   align-content: flex-end;
 }
 
-.container.flex-center {
+.flex-center {
   align-content: center;
 }
 
-.container.flex-strecht {
+.flex-strecht {
   align-content: stretch;
 }
 
-.container.space-between {
+.space-between {
   align-content: space-between;
 }
 
-.container.space-around {
+.space-around {
   align-content: space-around;
 }
 
-.container.space-evenly {
+.space-evenly {
   align-content: space-evenly;
 }
